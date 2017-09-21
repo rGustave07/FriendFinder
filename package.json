@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "0.0.1",
+  "description": "An app for matching buddies",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rGustave07/FriendFinder.git"
+  },
+  "author": "Ritter Gustave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rGustave07/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/rGustave07/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4"
+  }
+}
