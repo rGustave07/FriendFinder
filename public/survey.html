@@ -5,7 +5,7 @@
     <title></title>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
+
     <!-- Compiled and minified CSS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
@@ -18,30 +18,302 @@
   <body>
 
     <nav>
-      <div class="nav-wrapper">
+      <div class="nav-wrapper blue darken-3">
         <a href="#" class="brand-logo center">Survey</a>
         <ul id="nav-mobile" class="left hide-on-med-and-down">
           <li><a href="/">home</a></li>
         </ul>
       </div>
     </nav>
-<!-- Survey portion -->
-    <div class="row">
+<!-- Survey portion first row for name-->
+  <div class="row">
     <form class="col s12">
       <div class="row">
-        <div class="input-field col s6">
+        <div class="input-field col m4">
           <input  id="first_name" type="text" class="validate">
           <label for="first_name">First Name</label>
         </div>
-        <div class="input-field col s6">
+        <div class="input-field col m4">
           <input id="last_name" type="text" class="validate">
           <label for="last_name">Last Name</label>
         </div>
+        <div class="input-field col m4">
+          <input id="photo" type="text" class="validate">
+          <label for="photo">Photo Link</label>
+        </div>
       </div>
-    </form>
-  <!-- More survey stuff here -->
 
   </div>
+  <!-- More survey stuff here -->
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card blue-grey darken-1" id="card1">
+        <div class="card-content white-text">
+          <span class="card-title">Question 1</span>
+          <p>I like the Anaheim Ducks VERY much. They should've won the WCF of 2016</p>
+        </div>
+        <div class="card-action">
+          <!-- Answer portion -->
 
+            <div class="row">
+              <div class="col s12">
+                Enter a number 1 - 5:
+                <div class="input-field inline">
+                  <input id="number" type="number" class="validate">
+                  <label for="number" data-error="wrong" data-success="right">Answer</label>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+<!-- Second column -->
+<div class="col s12 m6">
+  <div class="card blue-grey darken-1" id="card2">
+    <div class="card-content white-text">
+      <span class="card-title">Question 2</span>
+      <p>Four cylinder cars are alright if they're twin turbo charged</p>
+    </div>
+    <div class="card-action">
+      <!-- Answer portion -->
+      <!-- Dropdown Trigger -->
+
+        <div class="row">
+          <div class="col s12">
+            Enter a number 1 - 5:
+            <div class="input-field inline">
+              <input id="number2" type="number" class="validate">
+              <label for="number2" data-error="wrong" data-success="right">Answer</label>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+  </div>
+<!-- End of first row -->
+<!-- Beginning of second row -->
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card blue-grey darken-1" id="card3">
+      <div class="card-content white-text">
+        <span class="card-title">Question 3</span>
+        <p>I love playing online video games such as Overwatch, Skyrim, and World of Warcraft</p>
+      </div>
+      <div class="card-action">
+        <!-- Answer portion -->
+        <!-- Dropdown Trigger -->
+
+          <div class="row">
+            <div class="col s12">
+              Enter a number 1 - 5:
+              <div class="input-field inline">
+                <input id="number3" type="number" class="validate">
+                <label for="number3" data-error="wrong" data-success="right">Answer</label>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+<!-- Second column -->
+<div class="col s12 m6">
+<div class="card blue-grey darken-1" id="card4">
+  <div class="card-content white-text">
+    <span class="card-title">Question 4</span>
+    <p>I can find the enjoyment in nearly anything I do</p>
+  </div>
+  <div class="card-action">
+    <!-- Answer portion -->
+    <!-- Dropdown Trigger -->
+
+      <div class="row">
+        <div class="col s12">
+          Enter a number 1 - 5:
+          <div class="input-field inline">
+            <input id="number4" type="number" class="validate">
+            <label for="number4" data-error="wrong" data-success="right">Answer</label>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+</div>
+</div>
+<!-- End of second row -->
+<!-- Beginning of third row -->
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card blue-grey darken-1" id="card5">
+      <div class="card-content white-text">
+        <span class="card-title">Question 5</span>
+        <p>I believe in global warming and that we should do our best to prevent it.</p>
+      </div>
+      <div class="card-action">
+        <!-- Answer portion -->
+        <!-- Dropdown Trigger -->
+
+          <div class="row">
+            <div class="col s12">
+              Enter a number 1 - 5:
+              <div class="input-field inline">
+                <input id="number5" type="number" class="validate">
+                <label for="number5" data-error="wrong" data-success="right">Answer</label>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+<!-- Second column -->
+<div class="col s12 m6">
+<div class="card blue-grey darken-1" id="card6">
+  <div class="card-content white-text">
+    <span class="card-title">Question 6</span>
+    <p>I enjoy occasional time to myself</p>
+  </div>
+  <div class="card-action">
+    <!-- Answer portion -->
+    <!-- Dropdown Trigger -->
+
+      <div class="row">
+        <div class="col s12">
+          Enter a number 1 - 5:
+          <div class="input-field inline">
+            <input id="number6" type="number" class="validate">
+            <label for="number6" data-error="wrong" data-success="right">Answer</label>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+</div>
+</div>
+<!-- End of third row -->
+<!-- Begining of fourth row -->
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card blue-grey darken-1" id="card7">
+      <div class="card-content white-text">
+        <span class="card-title">Question 7</span>
+        <p>I can find a song I like in any genre of music</p>
+      </div>
+      <div class="card-action">
+        <!-- Answer portion -->
+        <!-- Dropdown Trigger -->
+
+          <div class="row">
+            <div class="col s12">
+              Enter a number 1 - 5:
+              <div class="input-field inline">
+                <input id="number7" type="number" class="validate">
+                <label for="number7" data-error="wrong" data-success="right">Answer</label>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+<!-- Second column -->
+<div class="col s12 m6">
+<div class="card blue-grey darken-1" id="card8">
+  <div class="card-content white-text">
+    <span class="card-title">Question 8</span>
+    <p>I enjoy reading books</p>
+  </div>
+  <div class="card-action">
+    <!-- Answer portion -->
+    <!-- Dropdown Trigger -->
+
+      <div class="row">
+        <div class="col s12">
+          Enter a number 1 - 5:
+          <div class="input-field inline">
+            <input id="number8" type="number" class="validate">
+            <label for="number8" data-error="wrong" data-success="right">Answer</label>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+</div>
+</div>
+<!-- End of fourth row -->
+<!-- beginning of fifth row -->
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card blue-grey darken-1" id="card9">
+      <div class="card-content white-text">
+        <span class="card-title">Question 9</span>
+        <p>I feel comfortable in social situations no matter what the situation</p>
+      </div>
+      <div class="card-action">
+        <!-- Answer portion -->
+        <!-- Dropdown Trigger -->
+
+          <div class="row">
+            <div class="col s12">
+              Enter a number 1 - 5:
+              <div class="input-field inline">
+                <input id="number9" type="number" class="validate">
+                <label for="number9" data-error="wrong" data-success="right">Answer</label>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+<!-- Second column -->
+<div class="col s12 m6">
+<div class="card blue-grey darken-1" id="card10">
+  <div class="card-content white-text">
+    <span class="card-title">Question 10</span>
+    <p>I like trying new things</p>
+  </div>
+  <div class="card-action">
+    <!-- Answer portion -->
+    <!-- Dropdown Trigger -->
+
+      <div class="row">
+        <div class="col s12">
+          Enter a number 1 - 5:
+          <div class="input-field inline">
+            <input id="number10" type="number" class="validate">
+            <label for="number10" data-error="wrong" data-success="right">Answer</label>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>
+<!-- Enter submit triggers here  -->
+<button class="btn waves-effect waves-light" type="submit" id="submit" name="action">Submit Survey
+</button>
   </body>
+  <script type="text/javascript">
+  // Webpage Javascript Logic
+  //const friend = require('../data/friends');
+  let submission = {};
+  $('#submit').on('click', function(){
+      let username = $('#first_name').val() + " " + $('#last_name').val();
+      console.log('creating Object...');
+      submission.name = username;
+      submission.photo = $('#photo').val();
+      submission.scores = [parseInt($('#number').val()), parseInt($('#number2').val()), parseInt($('#number3').val()), parseInt($('#number4').val()), parseInt($('#number5').val()),
+                           parseInt($('#number6').val()), parseInt($('#number7').val()), parseInt($('#number8').val()), parseInt($('#number9').val()), parseInt($('#number10').val())];
+      console.log(submission);
+  })
+
+  </script>
 </html>
